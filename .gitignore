@@ -1,4 +1,5 @@
-.pio
+.pio/*
+!.pio/build
 .cache
 .pioenvs
 .piolibdeps
@@ -7,10 +8,6 @@
 /wled00/extLibs
 /platformio_override.ini
 /wled00/my_config.h
-/build_output/*
-!/build_output/firmware
-/build_output/firmware/*
-!/build_output/firmware/*.bin
 .DS_Store
 .gitignore
 .clang-format

@@ -42,6 +42,12 @@
 	"postCreateCommand": "npm install",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
+	"remoteUser": "vscode",
+
+	"runArgs": [
+		"--device=/dev/ttyUSB0",
+		"--device=/dev/ttyS2",
+		"--device=com3"
+	]
 }
 
