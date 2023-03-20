@@ -46,8 +46,7 @@
 
 	"runArgs": [
 		"--device=/dev/ttyUSB0",
-		"--device=/dev/ttyS2",
-		"--device=com3"
+		"--device=/dev/ttyS2"
 	]
 }
 
