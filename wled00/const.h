@@ -50,7 +50,7 @@
   #ifdef ESP8266
     #define WLED_MAX_BUTTONS 2
   #else
-    #define WLED_MAX_BUTTONS 4
+    #define WLED_MAX_BUTTONS 15 //Default 4; Increased to max of 15 for ESP32 (max if only "safe" pins are used and 4 LED data out channels are used)
   #endif
 #endif
 
